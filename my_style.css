@@ -1,0 +1,140 @@
+
+
+@media screen and (max-width:768px){
+    .header ul{
+        display: initial;
+    }
+    .header ul li{
+        height: 50px;
+        justify-content: center;
+    }
+    .header {
+        background-color: #666 !important;
+        padding: 0px 20px !important;
+        display:block;
+        height: auto;
+    }
+    .header a {
+        padding: 0px 5px !important;
+        font-size: 1.3em;
+    }
+    .menu ul li {
+        margin: 0 10px !important;
+    }
+    .footer {
+        background-color: #666 !important;
+    }
+    .event-title {
+        font-style: oblique;
+        font-size: 1.8em;
+        text-align: center;
+    }
+    .event-list {
+        background-color: slategrey;
+    }
+    .event-detail {
+        font-size: 1.1em;
+    }
+    .event p {
+        text-align: center !important;
+    }
+    .event a {
+        display: block;
+        margin-left: 60% !important;
+        text-align: center;
+        font-size: 1.2em;
+    }
+    .event  h3{
+        font-size: 1.6em;
+    }
+}
+@media screen and (max-width:425px){
+    body{
+        display:inline-grid;
+    }
+    .container{
+        max-width: 425px !important;
+    }
+    .menu{
+        position: fixed;
+        background-color:  rgba(17, 44, 83, 0.651);
+        z-index: 1;
+        top:0;
+        bottom:0;
+        left:-100vw;
+        width: 70vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: .3s;
+    }
+    .menu.is-active{
+        left:0;
+    }
+    .burger-button{
+        display: block !important;
+    }
+    .header{
+        display:block;
+        height: auto;
+        background-color: #444 !important;
+    }
+    .header ul{
+        display: initial;
+    }
+    .header ul li{
+        height: 50px;
+        justify-content: center;
+    }
+    .header a{
+        justify-content: center;
+        font-size: 1.5cm;
+        text-decoration: underline;
+        margin-bottom: .5es; /**/
+    }
+    .header.container{
+        flex: inline !important;
+    }
+    .header.logo{
+        text-align: left;
+    }
+    .event{
+        width: 97% !important;
+        align-items: center;
+    }
+    .footer{
+        background-color: #444 !important;
+    }
+}
+@media screen and (max-width:375px){
+    .footer{
+        background-color: #111 !important;
+    }
+    .header{
+        background-color: #111 !important;
+    }
+}
+@media screen and (max-width:320px){
+    .header{
+        background-color: #333 !important;
+    }
+    .event-title{
+        margin: 10px;
+    }
+    .event-detail h3{
+        font-size: 12px;
+        
+    }
+    .menu{
+        width: 90vw; /**/
+    }
+    .event-detail a{
+        padding:5px 60px;
+    }
+    .footer{
+        display: black;
+        text-align: center;
+        border:1px solid transparent;
+        background-color: #333 !important;
+    }
+}
